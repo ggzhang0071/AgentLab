@@ -12,9 +12,20 @@
 
 ## 🔨 Quick Install
 
-``` shell
-conda create -n AISimu python==3.10
+首先执行 
+```bash
+bash docker_cmd_rtx4.sh
+```
+然后执行
+``` bash
 pip install AISimuToolKit
+!pip install torch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 torchtext==0.14.1 fastai==2.7.11
+!pip install tokenizers
+!pip install torchdata==0.5.1
+pip install -r requirements.txt
+```
+
+``` shell
 python demo_leaderless_discuss.py
 python demo_meeting.py
 ```
