@@ -1,0 +1,11 @@
+fastapi==0.95.1
+openai==0.27.4
+pandas==1.5.3
+PyYAML==6.0
+Requests==2.28.2
+setuptools==65.6.3
+transformers==4.24.0
+colorama==0.4.6
+matplotlib==3.7.1
+numpy==1.23.5
+

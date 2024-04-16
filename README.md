@@ -29,6 +29,14 @@ pip install -r requirements.txt
 python demo_leaderless_discuss.py
 python demo_meeting.py
 ```
+不过这种方法好像需要安装torch和卸载torch两遍，还是直接还可以使用conda 和pip 的混合安装方法：
+``` bash 
+conda create -n AISimu python==3.10
+pip install AISimuToolKit
+pip install -r requirements.txt
+python demo_leaderless_discuss.py
+python demo_meeting.py
+```
 
 ## 🥸 Functions
 1. Use LLM to simulate agents with different profiles
